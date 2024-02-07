@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  .intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+    overflow: hidden; /* Ensure the image doesn't overflow */
+  }
+  
+  .intro img {
+    width: 100%;
+    height: auto; /* Ensure aspect ratio is maintained */
+    object-fit: cover; /* Ensure the image covers the entire container */
+  }
+  
