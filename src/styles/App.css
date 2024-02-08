@@ -1,0 +1,32 @@
+@import url("https://use.typekit.net/hhm5tyf.css");
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "source-sans-pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+body {
+  background-color: var(--chakra-colors-white);  
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  /* Ensure the image doesn't overflow */
+  padding: 10%;
+}
+
+.intro img {
+  height: auto;
+  /* Ensure aspect ratio is maintained */
+  object-fit: cover;
+  /* Ensure the image covers the entire container */
+  margin-top: 3%;
+}
